@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Cita } from './components/Cita'
 import { Formulario } from './components/Formulario'
 import PropTypes from 'prop-types'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -62,6 +63,7 @@ if(!citasIniciales){
         </div>
       </div>
     </div>
+    <Footer />
     </>
 
   );
